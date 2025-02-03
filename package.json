@@ -1,0 +1,20 @@
+{
+  "name": "threejs-tetrahedron",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "dat.gui": "^0.7.9",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.157.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.5.0"
+  }
+}
