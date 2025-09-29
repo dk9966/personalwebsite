@@ -1,6 +1,7 @@
+import * as React from "react";
 import "./Homepage.css";
 
-export function Homepage(): JSX.Element {
+export function Homepage(): React.ReactElement {
     return (
         <div className="homepage">
             {/* Header */}
@@ -36,7 +37,7 @@ export function Homepage(): JSX.Element {
                     <h2 className="section__title">Experiences</h2>
 
                     <h3 className="section__subtitle">Founder, Software Developer</h3>
-                    <p><strong>Rotarygolf.info</strong> · Taipei, Taiwan | Jun 2025 – Present</p>
+                    <p><a href="https://rotarygolf.info" target="_blank" rel="noopener noreferrer"><strong>Rotarygolf.info</strong></a> · Taipei, Taiwan | Jun 2025 – Present</p>
                     <p>
                         Built a full‑stack golf tournament system (React/TypeScript/PostgreSQL) with OCR scoring, role‑based auth, real‑time leaderboards, and automated awards; serving a 50‑member club with plans to scale across Taipei.
                     </p>

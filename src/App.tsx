@@ -1,7 +1,8 @@
 
+import * as React from "react";
 import { Homepage } from "./pages/Homepage";
 
-export function App(): JSX.Element {
+export function App(): React.ReactElement {
     return (
         <Homepage />
     );
