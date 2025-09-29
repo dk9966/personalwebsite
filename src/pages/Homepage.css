@@ -112,6 +112,7 @@
 
 .contact__links {
     display: flex;
+    padding: 20px 0;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;

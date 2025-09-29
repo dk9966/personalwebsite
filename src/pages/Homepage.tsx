@@ -1,4 +1,4 @@
-import "../homepage.css";
+import "./Homepage.css";
 
 export function Homepage(): JSX.Element {
     return (
@@ -13,7 +13,7 @@ export function Homepage(): JSX.Element {
             <nav className="nav">
                 <ul className="nav__list">
                     <li className="nav__item"><a className="nav__link" href="#about">About</a></li>
-                    <li className="nav__item"><a className="nav__link" href="#experience">Experience</a></li>
+                    <li className="nav__item"><a className="nav__link" href="#experience">Experiences</a></li>
                     <li className="nav__item"><a className="nav__link" href="#projects">Projects</a></li>
                     <li className="nav__item"><a className="nav__link" href="#contact">Contact</a></li>
                 </ul>
@@ -33,7 +33,7 @@ export function Homepage(): JSX.Element {
 
                 {/* Experience Section */}
                 <section id="experience" className="section">
-                    <h2 className="section__title">Experience</h2>
+                    <h2 className="section__title">Experiences</h2>
 
                     <h3 className="section__subtitle">Founder, Software Developer</h3>
                     <p><strong>Rotarygolf.info</strong> · Taipei, Taiwan | Jun 2025 – Present</p>
@@ -56,7 +56,7 @@ export function Homepage(): JSX.Element {
 
                 {/* Projects Section */}
                 <section id="projects" className="section">
-                    <h2 className="section__title">Featured Projects</h2>
+                    <h2 className="section__title">Projects</h2>
 
                     <h3 className="section__subtitle">IoT Bicycle Hazard Detection (CS 437)</h3>
                     <p>
@@ -76,14 +76,14 @@ export function Homepage(): JSX.Element {
                 <p>I’m always interested in thoughtful collaborations and impactful product work.</p>
                 <div className="contact__links">
                     <a className="contact__link" href="mailto:dcku2@illionis.edu">Email</a>
-                    <a className="contact__link" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a className="contact__link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+                    <a className="contact__link" href="https://www.linkedin.com/in/danielku96/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a className="contact__link" href="https://github.com/dk9966" target="_blank" rel="noreferrer">GitHub</a>
                 </div>
             </section>
 
             {/* Footer */}
             <footer className="footer">
-                <p>&copy; 2024 Daniel Ku. All rights reserved.</p>
+                <p>&copy; 2025 Daniel Ku. All rights reserved.</p>
             </footer>
         </div>
     );
