@@ -1,45 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <title>Three.js Tetrahedron Explorer</title>
-    <style>
-        body { 
-            margin: 0; 
-            overflow: hidden;
-        }
-        canvas { 
-            display: block; 
-        }
-        #crosshair {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none; /* Makes sure it doesn't interfere with clicks */
-            z-index: 1000;
-        }
-        #crosshair::before,
-        #crosshair::after {
-            content: "";
-            position: absolute;
-            background-color: rgba(255, 255, 255, 0.8);
-        }
-        #crosshair::before {
-            width: 2px;
-            height: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        #crosshair::after {
-            width: 20px;
-            height: 2px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Ku</title>
 </head>
+
 <body>
-    <div id="crosshair"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
 </body>
-</html> 
+
+</html>
